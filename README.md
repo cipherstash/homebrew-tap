@@ -1,14 +1,16 @@
-# homebrew-cipherstash
+# CipherStash Homebrew tap
 
-Homebrew casks for CipherStash tools.
+Official Homebrew tap for CipherStash.
 
-## How do I install?
+## Quickstart
 
 To install the `stash`, the CipherStash CLI:
 
 ``` bash
 brew install cipherstash/tap/stash
 ```
+
+## Slowstart
 
 Or to do the steps individually:
 
@@ -19,7 +21,3 @@ brew tap cipherstash/tap
 # install the cli
 brew install stash
 ```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
