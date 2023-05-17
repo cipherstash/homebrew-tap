@@ -5,10 +5,10 @@ cask "stash" do
   version "0.3.0-beta3-20230516"
   arch arm: "aarch64",
        intel: "x86_64"
-  binary "stash-#{arch}-apple-darwin", target: "stash"
+  binary "stash", target: "stash"
 
-  sha256 arm: "3e6e28b76fb42d2bbce1917ce4d7e097dd3723e2764b327be1918443e0c14bbb",
-         intel: "9832b0c1bc5bc79f63b524855650c9e0a821b06d699a461d60cbc56c5cdb0bd2"
+  sha256 arm: "44b64ec5ba31955ac47829b06359473d397c0c99e5cca70c4da79da10e4e5f06",
+         intel: "7d56c078c5db1463d5c233db5f92b10791497f6ff5bc419c98ff6e880676056c"
 
-  url "https://github.com/cipherstash/cli-releases/releases/download/release-#{version}/stash-#{arch}-apple-darwin"
+  url "https://github.com/cipherstash/cli-releases/releases/download/release-#{version}/stash-#{arch}-apple-darwin.dmg"
 end
