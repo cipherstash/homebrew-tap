@@ -2,7 +2,7 @@ cask "stash" do
   name "stash"
   homepage "https://github.com/cipherstash/cli-releases"
   desc "stash is the official command line utility for working with CipherStash"
-  version "1.0.0-20240503"
+  version "1.0.0-2024-05-03"
   arch arm: "aarch64",
        intel: "x86_64"
   binary "stash", target: "stash"
