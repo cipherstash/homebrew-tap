@@ -8,7 +8,7 @@ cask "stash" do
   binary "stash", target: "stash"
 
   sha256 arm: "9e2223304256fb7e9e7510b74856774e85ba76d7e45234d5068796c7709eff08",
-         intel: "e1e07d3dfea12b9b6f54644bc2e03029a2b9f4174fe77df0f158c6cfe4a7b6a9"
+         intel: "979e79936bf93dc0f5846847856cf64c89c13f56de00633afd3eba9b399128d3"
 
   url "https://github.com/cipherstash/cli-releases/releases/download/release-#{version}/stash-#{arch}-apple-darwin.dmg"
 end
