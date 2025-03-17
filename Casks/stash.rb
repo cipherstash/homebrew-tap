@@ -2,13 +2,13 @@ cask "stash" do
   name "stash"
   homepage "https://github.com/cipherstash/cli-releases"
   desc "stash is the official command line utility for working with CipherStash"
-  version "1.5.0-20250305"
+  version "1.6.0-20250317"
   arch arm: "aarch64",
        intel: "x86_64"
   binary "stash", target: "stash"
 
-  sha256 arm: "805810ce86082d0e720c3bb2cf5c2fd4ecc5f28afe71dab23385c470ad395c86",
-         intel: "2876f09e9b72e7fb72223025a5d35bbdc0b6a18586a6795a5137a24cd57ecf00"
+  sha256 arm: "ec6cbed372bbb4ad8a0999d7b534beaf28e1a6f35179dd7f29319fbdace47ed1",
+         intel: "5fc70c69dfd3a10f0d4bb02f6f912b84c0e52a92b959256fb6f38c22ad78f2c7"
 
   url "https://github.com/cipherstash/cli-releases/releases/download/release-#{version}/stash-#{arch}-apple-darwin.dmg"
 end
